@@ -1,0 +1,696 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+
+@media (max-width: 768px) {
+
+    .navbar {
+        box-sizing: border-box;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    ul {
+        display: flex;
+
+    }
+
+    #galer {
+        display: flex;
+        flex-direction: column;
+        height: 900px;
+    }
+
+    .galeria>div {
+        height: 900px;
+    }
+
+    #conquistas {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        overflow: hidden;
+    }
+    
+    .story {
+        margin-top: 0;
+        gap: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    
+    .parte2 {
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-top: 100px;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+
+    .parte3 {
+        gap: 50px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-top: 100px;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    
+    .parte5 {
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-top: 100px;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    
+    .parte6 {
+        gap: 50px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-top: 100px;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .parte7 {
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-top: 100px;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    
+
+    button {
+
+        overflow: hidden;
+    }
+
+    body {
+
+        width: 100%;
+
+    }
+}
+
+.menu {
+    display: none;
+    background-color: transparent;
+    border: none;
+    color: #eff1f0;
+    font-size: 36px;
+    top: 10px;
+    right: 10px;
+    position: absolute
+}
+
+
+.galeria {
+    margin-top: 100px;
+    display: flex;
+    height: 20rem;
+    gap: .5rem;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.galeria>div {
+
+    flex: .8;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: .6s;
+}
+
+.galeria>div:hover {
+    flex: 1.8;
+
+}
+
+
+
+* {
+    margin: 0;
+
+
+}
+
+body {
+    margin: 0;
+    background: -webkit-linear-gradient(270deg, #1F1B1B, #313132, #2e273f) no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+p {
+    color: red;
+
+}
+
+h1.cris {
+    font-family: 'Bowlby One SC';
+    color: #eff1f0;
+    -webkit-background-clip: text;
+    opacity: 100%;
+    background-position-x: center;
+    background-position-y: 370px;
+}
+
+.menutop {
+    top: -30px;
+
+
+}
+
+nav {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 40px;
+    position: sticky;
+}
+
+ul {
+    display: flex;
+}
+
+nav li {
+
+    display: inline-block;
+    list-style: none;
+    padding: 10px 10px 10px 10px;
+}
+
+a {
+    box-sizing: border-box;
+    padding: 4px 8px 4px 8px;
+    font-family: 'Bowlby One SC';
+    color: #eff1f0;
+    text-decoration: none;
+}
+
+
+
+a:hover {
+    border-bottom: 1px solid #7e5dca;
+    color: #7e5dca;
+    transition: .6s;
+}
+
+#conquistas {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.artilheirocard,
+.tituloscard,
+.recordescard {
+    height: 370px;
+    width: 270px;
+    border: 1px solid #7e5dca;
+    border-radius: 20px;
+    box-shadow: 2px 5px 20px 1px #2e273f;
+}
+
+.artilheirocard {
+    background-image: url(gols.svg);
+}
+
+.tituloscard {
+    background-image: url(bicho.svg);
+}
+
+.recordescard {
+    background-image: url(goat.svg);
+}
+
+.quiz {
+    cursor: pointer;
+    border: 0px solid;
+    border-radius: 20px;
+    opacity: 50%;
+    color: #eff1f0;
+    background-color: #7e5dca;
+    padding: 10px;
+}
+
+.quiz:hover {
+    opacity: 100%;
+    transition: .6s;
+    box-shadow: 2px 5px 20px 6px #2e273f;
+}
+
+/* AQUI COMEÇA A ABA CONQUISTAS */
+h2,
+h3 {
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #dde7e2;
+}
+
+.trofeucard {
+
+    margin-bottom: 80px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trofeus {
+    box-shadow: #7c61c9 2px 2px 10px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    height: 400px;
+    width: 700px;
+    border: 1px solid #7e5dca;
+}
+
+/* AQUI COMEÇAM OS CARDS */
+
+.story {
+    margin-top: 200px;
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+
+.sportingfc {
+
+    margin-top: 25px;
+    width: 200px;
+    height: 300px;
+    perspective: 1000px;
+}
+
+.frontsporting,
+.backsporting {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    transition: all 1s;
+    border: 1px solid #7e5dca;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.frontsporting {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    background: linear-gradient(10deg, #313132, #2e273f);
+    color: #eff1f0;
+}
+
+
+
+.backsporting {
+    font-family: 'Bowlby One SC';
+    background: linear-gradient(180deg, #2d1d53, #313132);
+    color: #eff1f0;
+    transform: rotateY(-180deg);
+
+}
+
+.sportingfc:hover .frontsporting {
+    transform: rotateY(180deg);
+}
+
+.sportingfc:hover .backsporting {
+    transform: rotateY(0);
+}
+
+/* primeiro card acima */
+
+.parte2 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.manutd {
+    margin-top: 50px;
+    width: 200px;
+    height: 300px;
+    perspective: 1000px;
+}
+
+.frontmanutd,
+.backmanutd {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    transition: all 1s;
+    border: 1px solid #7e5dca;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.frontmanutd {
+    background: linear-gradient(180deg, #2d1d53, #313132);
+    color: #eff1f0;
+    display: flex;
+    flex-direction: column;
+}
+
+.backmanutd {
+    font-family: 'Bowlby One SC';
+    background: linear-gradient(180deg, #2d1d53, #313132);
+    color: #eff1f0;
+    transform: rotateY(-180deg);
+
+}
+
+.manutd:hover .frontmanutd {
+    transform: rotateY(180deg);
+}
+
+.manutd:hover .backmanutd {
+    transform: rotateY(0);
+}
+
+#cr7arte {
+    opacity: 70%;
+    border-radius: 20px;
+    box-shadow: #7c61c9 2px 2px 10px;
+}
+
+/* SEGUNDO CARD ACIMA */
+
+.parte3 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.realm {
+    margin-top: 100px;
+    width: 200px;
+    height: 300px;
+    perspective: 1000px;
+}
+
+.frontreal,
+.backreal {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    transition: all 1s;
+    border: 1px solid #7e5dca;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.frontreal {
+    background: linear-gradient(180deg, #2d1d53, #313132);
+    color: #eff1f0;
+    display: flex;
+    flex-direction: column;
+}
+
+.backreal {
+    font-family: 'Bowlby One SC';
+    background: linear-gradient(180deg, #2d1d53, #313132);
+    color: #eff1f0;
+    transform: rotateY(-180deg);
+
+}
+
+.realm:hover .frontreal {
+    transform: rotateY(180deg);
+}
+
+.realm:hover .backreal {
+    transform: rotateY(0);
+}
+
+
+#cr7real {
+    object-fit: cover;
+    width: 342px;
+    height: 426px;
+    opacity: 70%;
+    border-radius: 20px;
+    box-shadow: #7c61c9 2px 2px 10px;
+}
+
+*/
+/* TERCEIRO CARD ACIMA */
+
+.parte4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* QUARTO CARD ABAIXO */
+
+.parte5 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.alnsr {
+    margin-top: 100px;
+    width: 200px;
+    height: 300px;
+    perspective: 1000px;
+}
+
+.frontalnsr,
+.backalnsr {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    transition: all 1s;
+    border: 1px solid #7e5dca;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.frontalnsr {
+    background: linear-gradient(180deg, #2d1d53, #313132);
+    color: #eff1f0;
+    display: flex;
+    flex-direction: column;
+}
+
+.backalnsr {
+    font-family: 'Bowlby One SC';
+    background: linear-gradient(180deg, #2d1d53, #313132);
+    color: #eff1f0;
+    transform: rotateY(-180deg);
+
+}
+
+.alnsr:hover .frontalnsr {
+    transform: rotateY(180deg);
+}
+
+.alnsr:hover .backalnsr {
+    transform: rotateY(0);
+}
+
+
+#cr7nssr {
+    object-fit: cover;
+    width: 342px;
+    height: 426px;
+    opacity: 70%;
+    border-radius: 20px;
+    box-shadow: #7c61c9 2px 2px 10px;
+
+}
+
+/* card5 acima */
+
+.parte6 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.juventus {
+    margin-top: 100px;
+    width: 200px;
+    height: 300px;
+    perspective: 1000px;
+}
+
+.frontj,
+.backj {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    transition: all 1s;
+    border: 1px solid #7e5dca;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.frontj {
+    background: linear-gradient(180deg, #2d1d53, #313132);
+    color: #eff1f0;
+    display: flex;
+    flex-direction: column;
+}
+
+.backj {
+    font-family: 'Bowlby One SC';
+    background: linear-gradient(180deg, #2d1d53, #313132);
+    color: #eff1f0;
+    transform: rotateY(-180deg);
+
+}
+
+.juventus:hover .frontj {
+    transform: rotateY(180deg);
+}
+
+.juventus:hover .backj {
+    transform: rotateY(0);
+}
+
+
+#cr7jr {
+    object-fit: cover;
+    width: 342px;
+    height: 426px;
+    opacity: 70%;
+    border-radius: 20px;
+    box-shadow: #7c61c9 2px 2px 10px;
+}
+/* ULTIMO CARD */
+
+.parte7 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.selecao {
+    margin-top: 100px;
+    width: 200px;
+    height: 300px;
+    perspective: 1000px;
+}
+
+.frontsele,
+.backsele {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    transition: all 1s;
+    border: 1px solid #7e5dca;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.frontsele {
+    background: linear-gradient(180deg, #2d1d53, #313132);
+    color: #eff1f0;
+    display: flex;
+    flex-direction: column;
+}
+
+.backsele {
+    font-family: 'Bowlby One SC';
+    background: linear-gradient(180deg, #2d1d53, #313132);
+    color: #eff1f0;
+    transform: rotateY(-180deg);
+
+}
+
+.selecao:hover .frontsele {
+    transform: rotateY(180deg);
+}
+
+.selecao:hover .backsele {
+    transform: rotateY(0);
+}
+
+
+#cr7sele {
+    object-fit: cover;
+    width: 342px;
+    height: 426px;
+    opacity: 70%;
+    border-radius: 20px;
+    box-shadow: #7c61c9 2px 2px 10px;
+}
+
+
+footer {
+    background-color: #313132;
+    height: 15vh;
+    width: 100%;
+
+}
+
+.rowfooter {
+    margin-left: -30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.rowfooter ul {
+    margin-top: 30px;
+    list-style-type: none;
+}
